@@ -1,0 +1,119 @@
+ formData: {
+        // 基本信息
+        basicInformation: {
+          brandName: "", //品牌名称
+          managementSubject: "", //运营管理主体
+          uscc: "", //统一社会信用代码
+          typeOrganization: "", //机构类型
+          dateIncorporation: "", //成立时间
+          honorsQualifications: "", //资质荣誉
+          address: "", //注册地址
+          field: "", //专业领域
+          locationDistribution: "", //区位分布
+          contacts: "", //联系人
+          tel: "", //联系电话
+          isDistrict: "", //是否区级资质
+          introduction: "", //机构简介
+        },
+        // 机构构成
+        organizationalStructure: {
+          finance: "", //财政投资
+          enterprise: "", //企业投资
+          socialOrganization: "", //社会组织投资
+          other: "", //其他投资
+        },
+        //运营情况
+        operation: {
+          assets: "", //资产总额
+          incubator: "", //孵化器总收入总额
+          property: "", //房租及物业收入
+          service: "", //专业服务收入
+          investment: "", //投资收入
+          other: "", //其它收入
+          netProfit: "", //净利润总额
+        },
+        // 运营成本
+        operatingCosts: {
+          incubator: "", //孵化器运营成本
+          field: "", //场地费用
+          personnel: "", //人员费用
+          other: "", //其他费用
+          taxAmount: "", //纳税额
+        },
+        // 面积与从业人员
+        areaAndEmployees: {
+          totalAreaIncubator: "", //孵化器使用总面积
+          incubatedEnterprises: "", //在孵企业用房
+          publicService: "", //公共服务用房
+          poisittaoi: "", //孵化场地占孵化机构总面积比例
+          eomo: "", //管理机构从业人员
+          noprpt: "", //接受专业培训人数
+        },
+        // 创业辅导开展情况
+        ioec: {
+          noiaea: "", //开展创新创业活动场次
+          tie: "", //培训在孵企业
+          noem: "", //创业导师数量
+          iemitfode: "", //其中：数字经济领域创业导师
+          noecbet: "", //创业导师对接企业数量
+          numberOfIncubators: "", //孵化器签约中介机构数量
+          iiiptsp: "", //孵化器对公共技术服务平台投资额
+          iihe: "", //硬件设备投资额
+          noiseoptsp: "", //孵化器对公共技术服务平台服务企业数量
+          troptsp: "", //公共技术服务平台总收入
+        },
+        // 投融资服务开展情况
+        ifiafs: {
+          soif: "", //自有孵化基金
+          coInvestmentFund: "", //联合投资基金
+          numberOfIncubatedEnterprises: "", //投资在孵企业数量
+          tiiie: "", //投资在孵企业总额
+          iethovc: "", //获得风险投资的在孵企业
+          tvcobie: "", //在孵企业获得风险投资总额
+          iiiptsp: "", //孵化器对公共技术服务平台投资额
+          iihe: "", //硬件设备投资额
+          noiseoptsp: "", //孵化器对公共技术服务平台服务企业数量
+          troptsp: "", //公共技术服务平台总收入
+        },
+        //在孵企业情况
+        incubatedEnterprises: {
+          numberOfIncubatingEnterprises: "", //在孵企业数
+          overseasChineseEnterprises: "", //留学人员企业
+          ussate: "", //大学生科技企业
+          nationalHighTechEnterprises: "", //国家高新技术企业,
+          samstbe: "", //科技型中小企业
+          digitalEnterprises: "", //数字领域企业
+          foreignInvestedEnterprise: "", //外商投资企业
+          naieitsv: "", //当年新增在孵企业
+        },
+        // 在孵企业从业人员情况
+        employeesOfIncubatedEnterprises: {
+          noeiie: "", //在孵企业从业人员数
+          inotitfode: "", //其中：数字经济领域人才数（个）
+          itnotpp: "", //其中:千人计划人数
+          inoibt: "", //其中：国际商务人才数
+          inopihp: "", //其中：海聚工程人数
+          overseasChinese: "", //留学人员
+          inoppbp: "", //其中：凤凰计划人数
+          numberOfNewCollegeGraduates: "", //吸纳应届大学毕业生人数（个）
+        },
+        // 在孵企业毕业情况
+        graduationOfIncubatedEnterprises: {
+          cumulativeGraduatedEnterprises: "", //累计毕业企业
+          ilie: "", //其中:上市(挂牌企业)
+          gei2021: "", //2021年毕业企业
+          iewrom: "", //其中：营收超过5000万企业（家）
+          ihighTechEnterprise: "", //其中：高新技术企业（家）
+          iemaa: "", //被兼并和收购企业
+        },
+        // 在孵企业研发投入与知识产权情况
+        rdiaipoie: {
+          troie: "", //在孵企业总收入
+          noipraitcy: "", //当年知识产权授权数
+          raedoie: "", //在孵企业研与试验发展(R&D)经费支出
+          noipr: "", //拥有有效知识产权数
+          afsrbie: "", //在孵企业累计获得财政资助额
+          includingPatent: "", //其中：发明专利
+          noipaitcy: "", //当年知识产权申请数
+        },
+      },

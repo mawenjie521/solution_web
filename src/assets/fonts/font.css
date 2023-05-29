@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'PingFang Medium';
+  src: url('PingFang-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PingFang Regular';
+  src: url('PingFang-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PingFang Light';
+  src: url('PingFang-Light.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PingFang Heavy';
+  src: url('PingFang-Heavy.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PingFang ExtraLight';
+  src: url('PingFang-ExtraLight.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PingFang Bold';
+  src: url('PingFang-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
