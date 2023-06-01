@@ -79,6 +79,14 @@ export default new Router({
             title: '企业查询'
           },
         },
+        {
+          path: '/providematch',
+          name: 'providematch',
+          component: resolve => require(['@/view/ProvideMatch'], resolve),
+          meta: {
+            title: '供需匹配'
+          },
+        },
       ]
     }
   ]

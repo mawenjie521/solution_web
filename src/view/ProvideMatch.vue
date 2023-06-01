@@ -8,7 +8,7 @@
         <vue2-org-tree :data="companydetail" :horizontal="true" />
       </div> -->
       <div class="content">
-          <EnterpriseInfo v-for="(item, index) in enterpriseList" :data="item" :key="index" />
+          <ProvideMatchInfo v-for="(item, index) in enterpriseList" :data="item" :key="index" />
          <el-pagination
             layout="prev, pager, next"
             :total="1000">
@@ -20,7 +20,7 @@
 
 <script>
 import { requireEnterpriseList } from "@/api/newRequest.js";
-import EnterpriseInfo from '@/components/EnterpriseInfo';
+import ProvideMatchInfo from '@/components/ProvideMatchInfo';
 
 export default {
   data() {
@@ -42,7 +42,7 @@ export default {
     };
   },
   components: {
-    EnterpriseInfo
+    ProvideMatchInfo
   },
   methods: {
     searchClick() {

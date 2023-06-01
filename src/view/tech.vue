@@ -122,6 +122,11 @@ export default {
   padding-left: 330px;
   padding-right: 281px;
   display: flex;
+  width: 80%;
+  margin: 0 auto;
+  color: #eee;
+  background: rgb(20,60,158, 0.4);
+  padding: 30px 200px
 }
 .main_left {
   min-height: 60px;

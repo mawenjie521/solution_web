@@ -81,7 +81,7 @@ export default {
         },
         {
           name: "供需匹配",
-          path: "/solution",
+          path: "/providematch",
           children: [],
         },
       ],
