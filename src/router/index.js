@@ -87,6 +87,14 @@ export default new Router({
             title: '供需匹配'
           },
         },
+        {
+          path: '/providematchsearch',
+          name: 'providematchsearch',
+          component: resolve => require(['@/view/ProvideMatchSearch'], resolve),
+          meta: {
+            title: '供需匹配'
+          },
+        },
       ]
     }
   ]
